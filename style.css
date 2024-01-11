@@ -48,18 +48,27 @@ html {
     background-size: cover;
     /* height: 350px; */
     width: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
 }
 
 h1 {
     color: #FFF;
     font-family: Poppins;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 100px;
+    padding-top: 6.25rem;
     text-align: center;
+}
+
+h2 {
+    color: #CB00FF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .class1 p {
@@ -102,7 +111,7 @@ img {
 .abt-txt h3 {
     color: #31043D;
     font-family: Poppins;
-    font-size: 1.875rem;
+    font-size: 1.875remrem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -133,12 +142,41 @@ img {
     font-style: normal;
     line-height: normal;
 }
-.flex2{
+
+.section2 h3 {
+    color: #31043D;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.flex3 {
     display: flex;
-   gap: 1.125rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    display: flex;
+    gap: 1.125rem;
     align-items: center;
     padding-top: 1rem;
 }
+
+.mysec1 .txt2 p {
+    padding-top: 1rem;
+    color: #31043Dab;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
 /* media query */
 @media screen and (max-width:875px) {
 
@@ -154,7 +192,4 @@ img {
     .pad {
         padding-top: 2rem;
     }
-
-    
-
 }
