@@ -175,8 +175,48 @@ img {
     font-weight: 300;
     line-height: normal;
 }
+/* our team */
+.team{
+    text-align: center;
+    padding-top: 2rem ;
+    
+}
+.team h3{
+    color: #31043D;
+/* Heading 1 */
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.team p{
+    color:  #31043D;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-bottom: 2rem;
+}
 
-
+h4{
+    color:  #31043D;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+span{
+    color:  #55076b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-weight: bold;
+}
 /* media query */
 @media screen and (max-width:875px) {
 
@@ -189,7 +229,10 @@ img {
         padding: 1rem;
     }
 
-    .pad {
+    .pad{
         padding-top: 2rem;
-    }
+}
+.team .flex3{
+    gap: 2rem;
+}
 }
