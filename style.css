@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .container {
@@ -46,7 +46,6 @@ html {
 .class1 {
     background: url("images/laptop.png");
     background-size: cover;
-    /* height: 350px; */
     width: 100%;
     padding-bottom: 9.375rem;
 }
@@ -102,6 +101,7 @@ img {
     height: 100%;
 }
 
+/* about us  */
 .mysec1 {
     background-color: #FFEFFF;
     margin-top: 1rem;
@@ -136,12 +136,15 @@ img {
     font-weight: 300;
     line-height: normal
 }
-.nav a.active{
+
+.nav a.active {
     color: #CB00FF;
 }
-.nav a:hover{
+
+.nav a:hover {
     color: #CB00FF;
 }
+
 .section2 p {
     font-family: Poppins;
     font-style: normal;
@@ -192,7 +195,7 @@ img {
     color: #31043D;
     /* Heading 1 */
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -201,7 +204,7 @@ img {
 .team p {
     color: #31043D;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -211,7 +214,7 @@ img {
 h4 {
     color: #31043D;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -220,7 +223,7 @@ h4 {
 span {
     color: #55076b;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -232,16 +235,18 @@ span {
     background-color: #5B3C63;
     padding-bottom: 2.5rem;
 }
-.flex4{
+
+.flex4 {
     display: flex;
     justify-content: space-evenly;
-    align-items:start;
+    align-items: start;
     flex-wrap: wrap;
 }
+
 .foot .txt3 p {
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -251,60 +256,69 @@ span {
 
 .foot li {
     list-style-type: none;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
-.foot h4{
-    padding-top:2rem ;
+
+.foot h4 {
+    padding-top: 2rem;
     color: #FFF;
-text-decoration: underline;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
+
 .foot a {
     text-decoration: none;
     color: #FBFBFB;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.txt3 img{
+
+.txt3 img {
     height: 70px;
     width: 144px;
 }
+
 .add span {
     color: #FBFBFB;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
+
 .add {
     color: #FBFBFB;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
 }
+
 .icn {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
-.icn i{
-    font-size: 25px;
+
+.icn i {
+    font-size: 1.5625rem;
     background-color: white;
     border-radius: 50%;
-    padding:8px;
+    padding: 0.5rem;
 }
+
 /* media query */
+/* about us page */
 @media screen and (max-width:875px) {
 
     .nav a,
@@ -316,15 +330,21 @@ line-height: normal;
         padding: 1rem;
     }
 
-    .pad,.section2 {
+    .pad,
+    .section2 {
         padding-top: 2rem;
     }
 
-    .team .flex3,.flex1,.flex1 {
+    .team .flex3,
+    .flex1,
+    .flex1 {
         gap: 3rem;
     }
-    .flex4{
-        justify-content:space-between;
-       
+
+    .flex4 {
+        justify-content: space-between;
+
     }
+
+    /*  */
 }
