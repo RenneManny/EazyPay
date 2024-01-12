@@ -379,13 +379,14 @@ span {
     }
 
     .class2,
-    .get-started {
+     {
         padding: 1rem;
     }
 
-    .padding{
+    .padding {
         padding-top: 1rem;
     }
+
     .section2 {
         padding-top: 2rem;
     }
