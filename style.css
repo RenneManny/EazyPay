@@ -363,7 +363,7 @@ span {
     color: #FFF;
     /* Bold text */
     font-family: Poppins;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-style: normal;
 
     line-height: normal;
@@ -378,14 +378,11 @@ span {
         display: none;
     }
 
-    .class2,
-    .get-started {
+    .class2 {
         padding: 1rem;
     }
 
-    .padding{
-        padding-top: 0.625rem;
-    }
+    .pad,
     .section2 {
         padding-top: 2rem;
     }
@@ -398,6 +395,8 @@ span {
 
     .flex4 {
         justify-content: space-between;
-        align-items: start;
+
     }
+
+    /*  */
 }
