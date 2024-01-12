@@ -360,13 +360,13 @@ span {
 }
 
 .get-started p {
-    color:  #FFF;
-/* Bold text */
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
+    color: #FFF;
+    /* Bold text */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
 
-line-height: normal;
+    line-height: normal;
 }
 
 /* media query */
@@ -378,11 +378,14 @@ line-height: normal;
         display: none;
     }
 
-    .class2,.get-started {
+    .class2,
+    .get-started {
         padding: 1rem;
     }
 
-    .pad,
+    .padding{
+        padding-top: 1rem;
+    }
     .section2 {
         padding-top: 2rem;
     }
@@ -397,6 +400,4 @@ line-height: normal;
         justify-content: space-between;
 
     }
-
-    /*  */
 }
