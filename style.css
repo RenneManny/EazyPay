@@ -10,11 +10,47 @@ html {
     font-size: 16px;
 }
 
+
+
+
+
 .container {
     width: 100%;
     max-width: 1440px;
     margin: 0px auto;
     padding: 1rem 2rem;
+}
+
+
+.brand logo {
+    width: 100%;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: Poppins;
+    color: black;
+    font-weight: 700;
+    padding: 1.125rem;
+}
+
+input,
+.bar {
+    display: none;
 }
 
 .flex1 {
@@ -24,19 +60,9 @@ html {
     flex-wrap: wrap;
 }
 
-.nav li {
-    list-style-type: none;
 
-}
 
-.nav a {
-    text-decoration: none;
-    font-size: 1.25rem;
-    font-family: Poppins;
-    color: black;
-    font-weight: 700;
-    padding: 1.125rem;
-}
+
 
 .icn a {
     padding: 0.3125rem;
@@ -137,7 +163,7 @@ img {
     line-height: normal
 }
 
-.nav a.active {
+nav a.active {
     color: #CB00FF;
 }
 
@@ -308,7 +334,7 @@ span {
     gap: 1.25rem;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 1.875rem;
+
 }
 
 .icn i {
@@ -372,10 +398,68 @@ span {
 /* media query */
 /* about us page */
 @media screen and (max-width:875px) {
+    header {
 
-    .nav a,
-    .icn a {
+        padding: 1.5rem 4rem;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    li {
+        display: block;
+        /* margin-left: 0; */
+        padding: 1rem 2rem;
+    }
+
+    .icn {
         display: none;
+    }
+
+    #toggle:checked~nav {
+        display: inline-block;
+    }
+
+    .bar {
+        display: inline;
+    }
+
+    nav {
+        display: none;
+        position: fixed;
+        left: 0%;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(226, 169, 241, 0.5);
+        padding-top: 120px;
+        z-index: 8;
+    }
+
+    .logo {
+        position: fixed;
+        z-index: 9;
+        left: 2rem;
+        top: 0.75rem;
+    }
+
+    .bar {
+
+        position: fixed;
+        right: 2rem;
+        top: 1.5rem;
+        z-index: 9;
+    }
+
+    .class1 {
+        width: 100%;
+        margin-top: 8rem;
     }
 
     .class2 {
@@ -388,7 +472,6 @@ span {
     }
 
     .team .flex3,
-    .flex1,
     .flex1 {
         gap: 3rem;
     }
