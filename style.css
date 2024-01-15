@@ -48,7 +48,7 @@ a {
     padding: 1.125rem;
 }
 
-input,
+.flex input,
 .bar {
     display: none;
 }
@@ -58,6 +58,7 @@ input,
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 2rem;
 }
 
 
@@ -119,6 +120,7 @@ h2 {
     border-radius: 0.75rem;
     background-color: #CB00FF;
     color: white;
+    text-align: center;
 }
 
 /* main */
@@ -198,6 +200,7 @@ nav a.active {
     gap: 1.125rem;
     align-items: center;
     padding-top: 1rem;
+    /* flex-wrap: wrap; */
 }
 
 .mysec1 .txt2 p {
@@ -395,6 +398,176 @@ span {
     line-height: normal;
 }
 
+/* card */
+.card {
+    padding-top: 2rem;
+    background: #31043D;
+}
+
+
+
+.txt small,
+.txt p {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: white;
+    padding-top: 1rem;
+}
+
+.txt h2 {
+    color: #FFF;
+    padding-top: 1rem;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.flex48 {
+    width: 48%;
+
+}
+
+.flex50 {
+    width: 50%;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.flex5 input {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    padding: 0.625rem 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 0.75rem;
+    background-color: rgb(145, 48, 132);
+    color: white;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.check i {
+    padding-top: 2rem;
+}
+
+.flex6 {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* our process  */
+.our-process {
+    background-color: white;
+    /* margin-top: 50px; */
+}
+
+.process-txt h3 {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #CB00FF;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.process-txt h2 {
+    padding-top: 1rem;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    color: black;
+
+}
+
+.process-txt p {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: black;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.process-txt u {
+    color: #CB00FF;
+}
+
+.box {
+    /* padding: 2rem; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+
+}
+
+.flex24 {
+    width: 24%;
+}
+ /* variety */
+ .variety{
+    text-align: center;
+    background-color: #31043D;
+    padding-top: 2rem;
+ }
+ .variety h5{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+ }
+ .variety p{
+    color: #FFF;
+    padding-top: 1rem;
+/* Heading 1 */
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+ }
 /* media query */
 /* about us page */
 @media screen and (max-width:875px) {
@@ -478,8 +651,30 @@ span {
 
     .flex4 {
         justify-content: space-between;
-
+        flex-wrap: wrap;
     }
 
-    /*  */
+    .flex48,
+    .flex5 input,
+    .btn {
+        width: 100%;
+    }
+
+    .flex6 {
+        gap: 0rem;
+    }
+
+    .card img {
+        order: 1;
+        padding-top: 4rem;
+    }
+
+    .imgs {
+        display: none;
+    }
+
+    /* our process */
+    .flex-box {
+        flex-wrap: wrap;
+    }
 }
