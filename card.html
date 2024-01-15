@@ -175,15 +175,47 @@
                             <p><b>Standard Card</b></p>
                             <p>Choose your training and register for free. If you are a
                                 freelancer, the courses are entirely taken care you.</p>
-
                         </div>
                     </div>
-
 
                     <img src="images/card(1).png" alt="">
                 </div>
             </div>
+        </section>
+        <!-- apply section -->
+        <section class="apply padding">
+            <div class="container brdr">
+                <div class="main flex">
+                    <div class="flex-app">
+                        <p class="circle">1</p>
+                        <p>Apply for free in 2 min.</p>
+                    </div>
+                    <div class="flex-app">
+                        <p class="circle">2</p>
+                        <p>Compare offers</p>
+                    </div>
+                    <div class="flex-app">
+                        <p class="circle">3</p>
+                        <p>Choose the best offer</p>
+                    </div>
+                </div>
+                <div class="flex2">
+                    <div class="apply-txt">
+                        <h3>Loan Amount</h3>
+                        <div class="flex-app">
+                            <div>
+                                <input id="rangeInput" type="range" min="10000" max="100000"
+                                    oninput="amount.value=rangeInput.value" />
+                            </div>
+                            <div><input id="amount" type="tel" value="10000" min="10000" max="100000"
+                                    oninput="rangeInput.value=amount.value" />
+                            </div>
+                        </div>
+                        <p>Min Rs. 100,000 - Max Rs. 1,00,00,000</p>
+                    </div>
+                </div>
 
+            </div>
         </section>
     </main>
 </body>
