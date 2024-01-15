@@ -8,6 +8,7 @@
 
 html {
     font-size: 16px;
+    font-family:  Poppins;
 }
 
 
@@ -610,7 +611,10 @@ input:focus {
 
 .main {
     background-color: #FFEFFF;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    ;
 }
 
 .circle {
@@ -623,34 +627,59 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding-bottom: 1rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* padding-left: 2rem; */
 }
-
+.center{
+    text-align: center;
+}
 .apply p {
     font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 300;
-    line-height: normal;
+   
 
 }
 .apply-txt h3{
+    color:  #31043D;
+font-family: Poppins;
+font-size: 1.25rem;
+
+font-weight: 400;
+
+
+}
+.main h2{
+    color:  #31043D;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.main h3{
     color:  #31043D;
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
+padding-bottom: 1rem;
 }
-#amount {
+section.apply .flex input{
+    display: inline-block;
+}
+#amount,#years {
     border: 2px solid black;
     border-radius: 2rem;
     padding: 0.65rem;
 }
-
+.btn-pos{
+    display: inline-block;
+    margin-top: 2rem;
+}
 /* media query */
 /* about us page */
 @media screen and (max-width:875px) {
@@ -756,9 +785,11 @@ line-height: normal;
     .imgs {
         display: none;
     }
-
+  .flex-app{
+    gap: 0;
+  }
     /* our process */
-    .flex-box {
+    .flex-box, .apply-txt .flex-app {
         flex-wrap: wrap;
         padding-top: 2rem;
     }
