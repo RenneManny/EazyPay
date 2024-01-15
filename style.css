@@ -786,7 +786,7 @@ section.apply .flex input{
         display: none;
     }
   .flex-app{
-    gap: 0;
+    gap: 1rem;
   }
     /* our process */
     .flex-box, .apply-txt .flex-app {
