@@ -762,6 +762,25 @@ section.apply .flex input {
   height: 70px;
 }
 
+.main h3 {
+  text-align: center;
+}
+
+.connect-us .main p {
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.btn-dotted {
+  border: 1px dotted #cb00ff;
+  background-color: transparent;
+  color: #cb00ff;
+}
+
 /* media query */
 /* about us page */
 @media screen and (max-width: 875px) {
@@ -787,7 +806,7 @@ section.apply .flex input {
     display: none;
   }
 
-  #toggle:checked ~ nav {
+  #toggle:checked~nav {
     display: inline-block;
   }
 
