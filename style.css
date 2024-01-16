@@ -828,16 +828,24 @@ section.apply .flex input {
   font-weight: 400;
 
 }
-.col2 h3{
+
+.col2 h3 {
 
 
-font-size: 30px;
+  font-size: 30px;
 
-font-weight: 600;
+  font-weight: 600;
 
 }
-.flexi .flex3{
+
+.flexi .flex3 {
   align-items: start;
+}
+.contact{
+  
+  background:url("images/contactus.png");
+  /* filter: grayscale(); */
+  background-size: cover;
 }
 /* media query */
 /* about us page */
@@ -892,10 +900,12 @@ font-weight: 600;
     left: 2rem;
     top: 0.75rem;
   }
-  .col2 img{
+
+  .col2 img {
     width: 100%;
     height: 100%;
   }
+
   .bar {
     position: fixed;
     right: 2rem;
@@ -969,9 +979,12 @@ font-weight: 600;
   /* home page */
   .home-bg {
     width: 100%;
+    height: 100%;
     margin-top: 8rem;
   }
-  .inner-flex1,.inner-flex2{
+
+  .inner-flex1,
+  .inner-flex2 {
     flex-wrap: wrap;
   }
 }
