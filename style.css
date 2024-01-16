@@ -8,7 +8,7 @@
 
 html {
     font-size: 16px;
-    font-family:  Poppins;
+    font-family: Poppins;
 }
 
 
@@ -347,7 +347,15 @@ span {
     border-radius: 50%;
     padding: 0.5rem;
 }
-
+.bg{
+    font-size: 1.5625rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+}
+.container2 .flex-app{
+    gap:1rem;
+}
 /* privacy ploicy page */
 .class1 {
 
@@ -580,7 +588,7 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .box1 {
@@ -632,53 +640,79 @@ input:focus {
     /* flex-wrap: wrap; */
     /* padding-left: 2rem; */
 }
-.center{
+
+.center {
     text-align: center;
 }
+
 .apply p {
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 300;
-   
-
-}
-.apply-txt h3{
-    color:  #31043D;
-font-family: Poppins;
-font-size: 1.25rem;
-
-font-weight: 400;
 
 
 }
-.main h2{
-    color:  #31043D;
-font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+
+.apply-txt h3 {
+    color: #31043D;
+    font-family: Poppins;
+    font-size: 1.25rem;
+
+    font-weight: 400;
+
+
 }
-.main h3{
-    color:  #31043D;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-bottom: 1rem;
+
+.main h2 {
+    color: #31043D;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-section.apply .flex input{
+
+.main h3 {
+    color: #31043D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+section.apply .flex input {
     display: inline-block;
 }
-#amount,#years {
+
+#amount,
+#years {
     border: 2px solid black;
     border-radius: 2rem;
     padding: 0.65rem;
 }
-.btn-pos{
+
+.btn-pos {
     display: inline-block;
     margin-top: 2rem;
+}
+.home-bg{
+    width: 100%;
+    background-color: #31043D;
+    padding: 2rem 4rem;
+ 
+}
+.container2{
+   
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 2rem;
+   border: none;
+   border-radius: 8px;
+background: #5B3C63;
+   color: white;
 }
 /* media query */
 /* about us page */
@@ -785,17 +819,28 @@ section.apply .flex input{
     .imgs {
         display: none;
     }
-  .flex-app{
-    gap: 1rem;
-  }
+
+    .flex-app {
+        gap: 1rem;
+    }
+
     /* our process */
-    .flex-box, .apply-txt .flex-app {
+    .flex-box,
+    .apply-txt .flex-app ,.container2 .flex-app{
         flex-wrap: wrap;
         padding-top: 2rem;
     }
+
     /* apply section */
     .brdr {
         border: none;
-       
+
     }
+    /* home page */
+    .home-bg{
+        width: 100%;
+        margin-top: 8rem ;
+    }
+   
+    
 }
