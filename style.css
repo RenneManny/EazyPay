@@ -826,7 +826,7 @@ background: #5B3C63;
 
     /* our process */
     .flex-box,
-    .apply-txt .flex-app ,.container2 .flex-app{
+    .apply-txt .flex-app {
         flex-wrap: wrap;
         padding-top: 2rem;
     }
