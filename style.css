@@ -781,6 +781,64 @@ section.apply .flex input {
   color: #cb00ff;
 }
 
+.flexi {
+  background-color: #F9F7F9;
+  ;
+}
+
+.col2 img {
+  width: 517px;
+  height: 450px;
+}
+
+.col2 p {
+
+
+  font-size: 20px;
+
+  font-weight: 300;
+
+}
+
+.inner-flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.inner-flex2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.boxx {
+  padding: 1rem 2rem;
+  background-color: #FFEFFF;
+}
+
+.col2 h5 {
+  color: #CB00FF;
+
+  font-size: 20px;
+
+  font-weight: 400;
+
+}
+.col2 h3{
+
+
+font-size: 30px;
+
+font-weight: 600;
+
+}
+.flexi .flex3{
+  align-items: start;
+}
 /* media query */
 /* about us page */
 @media screen and (max-width: 875px) {
@@ -834,7 +892,10 @@ section.apply .flex input {
     left: 2rem;
     top: 0.75rem;
   }
-
+  .col2 img{
+    width: 100%;
+    height: 100%;
+  }
   .bar {
     position: fixed;
     right: 2rem;
@@ -909,5 +970,8 @@ section.apply .flex input {
   .home-bg {
     width: 100%;
     margin-top: 8rem;
+  }
+  .inner-flex1,.inner-flex2{
+    flex-wrap: wrap;
   }
 }
