@@ -964,7 +964,7 @@ text-align: center;
 
   .flex4,
   .flex8,
-  .flex9,.flex12 {
+  .flex9 {
     justify-content: space-between;
     flex-wrap: wrap;
   }
@@ -996,7 +996,7 @@ text-align: center;
   /* our process */
   .flex-box,
   .apply-txt .flex-app,
-  .flex-7 {
+  .flex-7,.flex12 {
     flex-wrap: wrap;
     padding-top: 2rem;
   }
