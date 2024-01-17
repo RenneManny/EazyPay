@@ -841,12 +841,41 @@ section.apply .flex input {
 .flexi .flex3 {
   align-items: start;
 }
-.contact{
-  
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/fullimg.png");
+/* contact us */
+.contact {
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/fullimg.png");
   /* filter: grayscale(); */
   background-size: cover;
   padding-top: 4rem;
+}
+.flex12{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin-top: 2rem;
+}
+.form input,textarea:focus{
+  outline: none;
+}
+.form input,textarea
+{
+font-family: Poppins;
+display: block;
+width: 100%;
+padding: 0.65rem 1rem;
+margin-top: 1rem;
+}
+.form-btn{
+  width: 100%;
+  display: block;
+  padding: 0.65rem 1rem;
+margin-top: 1rem;
+background-color: #31043D;
+border-radius: 4px;
+font-weight: normal;
+color: white;
+text-align: center;
 }
 /* media query */
 /* about us page */
@@ -935,7 +964,7 @@ section.apply .flex input {
 
   .flex4,
   .flex8,
-  .flex9 {
+  .flex9,.flex12 {
     justify-content: space-between;
     flex-wrap: wrap;
   }
