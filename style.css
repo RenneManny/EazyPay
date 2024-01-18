@@ -782,7 +782,8 @@ section.apply .flex input {
 }
 
 .flexi {
-  background-color: #f9f7f9;
+  background-color: #F9F7F9;
+  ;
 }
 
 .col2 img {
@@ -791,9 +792,12 @@ section.apply .flex input {
 }
 
 .col2 p {
+
+
   font-size: 20px;
 
   font-weight: 300;
+
 }
 
 .inner-flex1 {
@@ -813,21 +817,25 @@ section.apply .flex input {
 
 .boxx {
   padding: 1rem 2rem;
-  background-color: #ffefff;
+  background-color: #FFEFFF;
 }
 
 .col2 h5 {
-  color: #cb00ff;
+  color: #CB00FF;
 
   font-size: 20px;
 
   font-weight: 400;
+
 }
 
 .col2 h3 {
+
+
   font-size: 30px;
 
   font-weight: 600;
+
 }
 
 .flexi .flex3 {
@@ -835,40 +843,39 @@ section.apply .flex input {
 }
 /* contact us */
 .contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/fullimg.png");
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/fullimg.png");
   /* filter: grayscale(); */
   background-size: cover;
   padding-top: 4rem;
 }
-.flex12 {
+.flex12{
   display: flex;
   justify-content: space-around;
   align-items: start;
   margin-top: 2rem;
 }
-.form input,
-textarea:focus {
+.form input,textarea:focus{
   outline: none;
 }
-.form input,
-textarea {
-  font-family: Poppins;
-  display: block;
-  width: 100%;
-  padding: 0.65rem 1rem;
-  margin-top: 1rem;
+.form input,textarea
+{
+font-family: Poppins;
+display: block;
+width: 100%;
+padding: 0.65rem 1rem;
+margin-top: 1rem;
 }
-.form-btn {
+.form-btn{
   width: 100%;
   display: block;
   padding: 0.65rem 1rem;
-  margin-top: 1rem;
-  background-color: #31043d;
-  border-radius: 4px;
-  font-weight: normal;
-  color: white;
-  text-align: center;
+margin-top: 1rem;
+background-color: #31043D;
+border-radius: 4px;
+font-weight: normal;
+color: white;
+text-align: center;
 }
 /* media query */
 /* about us page */
@@ -895,7 +902,7 @@ textarea {
     display: none;
   }
 
-  #toggle:checked ~ nav {
+  #toggle:checked~nav {
     display: inline-block;
   }
 
@@ -989,8 +996,7 @@ textarea {
   /* our process */
   .flex-box,
   .apply-txt .flex-app,
-  .flex-7,
-.flex48 {
+  .flex-7,.flex12 {
     flex-wrap: wrap;
     padding-top: 2rem;
   }
@@ -999,7 +1005,9 @@ textarea {
   .brdr {
     border: none;
   }
-
+.flex48{
+  padding-bottom: 2rem;
+}
   /* home page */
   .home-bg {
     width: 100%;
