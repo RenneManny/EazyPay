@@ -597,7 +597,7 @@ input:focus {
 }
 
 .main {
-  background-color: #ffefff;
+  background-color: #BA83C8;
   padding: 2rem 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -897,7 +897,21 @@ textarea {
   gap: 20px;
   align-items: center;
 }
-
+.accordion h3{
+  color: var(--Color-2, #FFF);
+font-family: Akrobat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 1rem ;
+}
+.accordion p{
+  color: var(--Color-2, #FFF);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+}
 /* media query */
 /* about us page */
 @media screen and (max-width: 875px) {
