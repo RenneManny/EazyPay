@@ -877,6 +877,17 @@ font-weight: normal;
 color: white;
 text-align: center;
 }
+.flex13{
+  display: flex;
+  justify-content: start;
+  gap: 4rem;
+}
+.flex13-inner{
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+}
 /* media query */
 /* about us page */
 @media screen and (max-width: 875px) {
@@ -1016,7 +1027,7 @@ text-align: center;
   }
 
   .inner-flex1,
-  .inner-flex2 {
+  .inner-flex2 ,.flex13{
     flex-wrap: wrap;
   }
 }
