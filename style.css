@@ -840,7 +840,9 @@ section.apply .flex input {
 
 .flexi .flex3 {
   align-items: start;
+  padding-top: 2rem;
 }
+
 /* contact us */
 .contact {
 
@@ -849,45 +851,53 @@ section.apply .flex input {
   background-size: cover;
   padding-top: 4rem;
 }
-.flex12{
+
+.flex12 {
   display: flex;
   justify-content: space-around;
   align-items: start;
   margin-top: 2rem;
 }
-.form input,textarea:focus{
+
+.form input,
+textarea:focus {
   outline: none;
 }
-.form input,textarea
-{
-font-family: Poppins;
-display: block;
-width: 100%;
-padding: 0.65rem 1rem;
-margin-top: 1rem;
+
+.form input,
+textarea {
+  font-family: Poppins;
+  display: block;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  margin-top: 1rem;
 }
-.form-btn{
+
+.form-btn {
   width: 100%;
   display: block;
   padding: 0.65rem 1rem;
-margin-top: 1rem;
-background-color: #31043D;
-border-radius: 4px;
-font-weight: normal;
-color: white;
-text-align: center;
+  margin-top: 1rem;
+  background-color: #31043D;
+  border-radius: 4px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
 }
-.flex13{
+
+.flex13 {
   display: flex;
   justify-content: start;
   gap: 4rem;
 }
-.flex13-inner{
+
+.flex13-inner {
   display: flex;
   justify-content: start;
   gap: 20px;
   align-items: center;
 }
+
 /* media query */
 /* about us page */
 @media screen and (max-width: 875px) {
@@ -930,7 +940,7 @@ text-align: center;
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(226, 169, 241, 0.5);
+    background-color: rgba(226, 169, 241);
     padding-top: 120px;
     z-index: 8;
   }
@@ -986,6 +996,10 @@ text-align: center;
     width: 100%;
   }
 
+  .form-btn {
+    font-size: 1rem;
+  }
+
   .flex6 {
     gap: 0rem;
   }
@@ -1007,7 +1021,7 @@ text-align: center;
   /* our process */
   .flex-box,
   .apply-txt .flex-app,
-  .flex-7,.flex12 {
+  .flex-7 {
     flex-wrap: wrap;
     padding-top: 2rem;
   }
@@ -1016,9 +1030,11 @@ text-align: center;
   .brdr {
     border: none;
   }
-.flex48{
-  padding-bottom: 2rem;
-}
+
+  .flex48 {
+    padding-bottom: 2rem;
+  }
+
   /* home page */
   .home-bg {
     width: 100%;
@@ -1027,7 +1043,10 @@ text-align: center;
   }
 
   .inner-flex1,
-  .inner-flex2 ,.flex13{
+  .inner-flex2,
+  .flex13,
+  .flex12 {
     flex-wrap: wrap;
   }
+
 }
