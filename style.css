@@ -898,7 +898,7 @@ textarea {
   align-items: center;
 }
 .white{
-padding: 2rem 5rem;
+/* padding: 2rem 5rem; */
 background-color:white;
 border-radius: 24px;
 margin-top: 12px;
@@ -1068,7 +1068,9 @@ background-color: #fff;
   .flex-7 {
     gap: 1rem;
   }
-
+.white{
+  width: 100%;
+}
   /* our process */
   .flex-box,
   .apply-txt .flex-app,
