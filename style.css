@@ -345,6 +345,16 @@ span {
 .container2 .flex-app {
   gap: 1rem;
 }
+.container2{
+  margin: 32px auto;
+  /* max-width: 1200px; */
+  /* width: 100%; */
+  padding: 1rem;
+  /* border: none; */
+  border-radius: 8px;
+  background: #5b3c63;
+  color: white;
+}
 
 /* privacy ploicy page */
 .class1 {
@@ -933,7 +943,7 @@ background-color: #fff;
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+ .accordion:hover {
   background-color: #ccc; 
 }
 
@@ -958,7 +968,12 @@ background-color: #fff;
     width: 100%;
     top: 0;
   }
-
+.get-started .flex1{
+  gap:0
+}
+.get-started{
+  padding: 1rem;
+}
   .flex,
   .div-flex {
     flex-wrap: wrap;
@@ -1033,7 +1048,17 @@ background-color: #fff;
   .flex1 {
     gap: 3rem;
   }
-
+.container2{
+  margin:2rem auto;
+  /* max-width: 1200px; */
+  /* width: 100%; */
+  padding: 1rem;
+  /* border: none; */
+  border-radius: 8px;
+  background: #5b3c63;
+  color: white;
+}
+.container2 .flex-app{flex-wrap: wrap;}
   .flex4,
   .flex8,
   .flex9 {
