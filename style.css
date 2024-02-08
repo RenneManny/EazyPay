@@ -249,11 +249,6 @@ span {
 }
 
 /* footer */
-.foot {
-  background-color: #5b3c63;
-  padding-bottom: 2.5rem;
-  margin-top: 2rem;
-}
 
 .flex4 {
   display: flex;
@@ -261,48 +256,53 @@ span {
   align-items: start;
   flex-wrap: wrap;
 }
-
-.foot .txt3 p {
+.footer {
+  background-color:#55076b;
   color: #fff;
-  font-family: Poppins;
-  font-size: 1rem;
+  padding: 30px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-left img {
+  width: 250px;
+}
+
+.footer-right {
+  flex: 2;
+}
+
+
+.footer-right p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.company-params {
+  list-style: none;
+}
+
+.company-params li {
+  margin-bottom: 10px;
+}
+
+address {
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
-.foot li {
-  list-style-type: none;
-  padding-top: 0.625rem;
-}
-
-.foot h4 {
-  padding-top: 2rem;
-  color: #fff;
-  text-decoration: underline;
-  font-family: Poppins;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.foot a {
-  text-decoration: none;
-  color: #fbfbfb;
-  font-family: Poppins;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.txt3 img {
-  height: 70px;
-  width: 144px;
-}
 
 .add span {
   color: #fbfbfb;
@@ -1126,5 +1126,17 @@ background-color: #fff;
   .flex12 {
     flex-wrap: wrap;
   }
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-left, .footer-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-left img{
+    max-width: 100%;
+  }
+
 
 }
